@@ -1,0 +1,91 @@
+# version of crosscompute
+crosscompute: 0.9.1
+
+# name of your automation
+name:
+
+# version of your automation
+version: 0.0.1
+
+# input configuration
+input:
+
+  # input variables
+  # - id to use when referencing your variable in the template
+  # - view to use when rendering your variable on the display
+  # - path where your script loads the variable,
+  #   relative to the input folder
+  variables:
+    - id:
+      view:
+      path:
+
+# output configuration
+output:
+
+  # output variables
+  # - id to use when referencing your variable in the template
+  # - view to use when rendering your variable on the display
+  # - path where your script saves the variable,
+  #   relative to the output folder
+  variables:
+    - id:
+      view:
+      path:
+
+  # output templates
+  # - path to your markdown template or jupyter notebook form
+  templates:
+    - path:
+
+# tests configuration
+# - folder that contains an input subfolder with paths for
+#   input variables that define a specific test
+tests:
+  - folder:
+  - folder:
+
+# batches configuration
+# - folder that contains an input subfolder with paths for
+#   input variables that define a specific batch
+batches:
+  - folder:
+
+
+# scripts configuration
+# - path to your script, relative to the script folder
+# - folder where your script should run
+scripts:
+  - path:
+    folder:
+
+# repository configuration
+repository:
+
+  # uri of repository that contains your script
+  uri:
+
+  # folder that contains this configuration file
+  folder:
+
+# environment configuration
+environment:
+
+  # image of the container that you want to use to run your script
+  image:
+
+  # type of the processor you want to use to run your script, either
+  # cpu or gpu
+  processor:
+
+  # amount of memory you want to reserve to run your script
+  memory:
+
+# display configuration
+display:
+
+  # styles configuration
+  # - uri to CSS stylesheet that will be used to render your templates
+  # - path to CSS stylesheet that will be used to render your templates
+  styles:
+    - path:
